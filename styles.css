@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: palevioletred;
+    text-align: center;
+}
+.msg-container {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4rem;
+    position: absolute; /* Ensure it covers the whole viewport */
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    right: 0; /* Align to the right */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for visibility */
+    color: white; /* Text color for visibility */
+}
+#msg {
+    color: aliceblue;
+    font-size: 5vmin;
+}
+.container {
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 1);
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(226, 43, 67);
+    background-color: aliceblue;
+}
+.reset {
+    font-size: 1.25rem;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+.newgame {
+    font-size: 1.25rem;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+}
+.winner {
+    font-size: 1.25rem;
+    background-color: rgb(230, 192, 28);
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    height: 50px;
+    width: 80px;
+}
+.hide {
+    display: none;
+}
